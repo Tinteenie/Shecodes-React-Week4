@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(168, 176, 183);
+}
+
 .hero {
   text-align: center;
   background-color: rgb(100, 106, 112);
@@ -26,19 +30,19 @@
   margin: 30px 30px 30px 30px;
 }
 
-.container-body {
-  background-color: rgb(168, 176, 183);
-}
-
 .visit-us {
   text-align: center;
   font-size: 40px;
   font-family: "Calligraffitti", cursive, "Yuji Boku", serif;
+  color: white;
 }
 
 .about-us-description p {
-  color: red;
+  color: white;
   font-family: "Xanh Mono", monospace;
   font-size: 20px;
   line-height: 30px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 0 50px 0;
 }
