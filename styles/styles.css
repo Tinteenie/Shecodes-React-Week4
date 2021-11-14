@@ -1,7 +1,8 @@
 .hero {
   text-align: center;
-  background-color: #f9f7fe;
+  background-color: rgb(100, 106, 112);
   padding: 100px 20px 50px 20px;
+  color: white;
 }
 
 .hero h1 {
@@ -23,4 +24,21 @@
   color: white;
   padding: 15px 15px 15px 15px;
   margin: 30px 30px 30px 30px;
+}
+
+.container-body {
+  background-color: rgb(168, 176, 183);
+}
+
+.visit-us {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Calligraffitti", cursive, "Yuji Boku", serif;
+}
+
+.about-us-description p {
+  color: red;
+  font-family: "Xanh Mono", monospace;
+  font-size: 20px;
+  line-height: 30px;
 }
