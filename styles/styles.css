@@ -6,14 +6,16 @@
 
 .hero h1 {
   font-size: 76px;
-  font-family: "Calligraffitti", "Yuji Boku", serif;
+  font-family: "Calligraffitti", cursive, "Yuji Boku", serif;
 }
 .hero h2 {
   font-size: 36px;
+  font-family: "Xanh Mono", monospace;
 }
 
 .hero h4 {
   font-size: 25px;
+  font-family: "Xanh Mono", monospace;
 }
 
 .btn-branding {
