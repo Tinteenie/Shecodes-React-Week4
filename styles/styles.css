@@ -1,45 +1,73 @@
+:root {
+  --primiary-color: rgba(100, 106, 112);
+  --secondary-color: rgb(168, 176, 183);
+  --text-color: white;
+  --primary-font-family: "Calligraffitti", cursive, "Yuji Boku", serif;
+  --secondary-font-family: "Xanh Mono", monospace;
+  --box-shadow: 9px 9px 5px rgba(100, 106, 112, 0.5);
+  --border: 1.5px solid white;
+}
 body {
-  background-color: rgb(168, 176, 183);
+  background-color: var(--secondary-color);
+}
+
+img {
+  border-radius: 15px;
+  border: var(--border);
+  box-shadow: var(--box-shadow);
 }
 
 .hero {
   text-align: center;
-  background-color: rgb(100, 106, 112);
+  background-color: var(--primiary-color);
   padding: 100px 20px 50px 20px;
-  color: white;
+  color: var(--text-color);
 }
 
 .hero h1 {
   font-size: 76px;
-  font-family: "Calligraffitti", cursive, "Yuji Boku", serif;
+  font-family: var(--primary-font-family);
 }
+
 .hero h2 {
   font-size: 36px;
-  font-family: "Xanh Mono", monospace;
+  font-family: var(--secondary-font-family);
 }
 
 .hero h4 {
   font-size: 25px;
-  font-family: "Xanh Mono", monospace;
+  font-family: var(--secondary-font-family);
 }
 
 .btn-branding {
-  background-color: #6c63ff;
-  color: white;
-  padding: 15px 15px 15px 15px;
-  margin: 30px 30px 30px 30px;
+  background-color: rgb(100, 106, 112);
+  color: var(--text-color);
+  font-family: var(--primary-font-family);
+  font-size: 30px;
+  line-height: 15px;
+  display: flex;
+  justify-content: center;
+  margin: 50px 450px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: var(--border);
+  box-shadow: 5px 5px 5px rgba(100, 106, 112, 0.5);
+}
+
+.btn-branding:hover {
+  color: var(--text-color);
 }
 
 .visit-us {
   text-align: center;
   font-size: 40px;
-  font-family: "Calligraffitti", cursive, "Yuji Boku", serif;
-  color: white;
+  font-family: var(--primary-font-family);
+  color: var(--text-color);
 }
 
 .about-us-description p {
-  color: white;
-  font-family: "Xanh Mono", monospace;
+  color: var(--text-color);
+  font-family: var(--secondary-font-family);
   font-size: 20px;
   line-height: 30px;
   text-align: center;
@@ -48,8 +76,8 @@ body {
 }
 
 .operation {
-  color: white;
-  font-family: "Xanh Mono", monospace;
+  color: var(--text-color);
+  font-family: var(--secondary-font-family);
   font-size: 20px;
   line-height: 30px;
   text-align: center;
