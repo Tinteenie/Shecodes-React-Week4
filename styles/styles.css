@@ -1,5 +1,24 @@
-h1 {
-  color: yellow;
-  background-color: pink;
-  font-family: "Yuji Boku", serif;
+.hero {
+  text-align: center;
+  background-color: #f9f7fe;
+  padding: 100px 20px 50px 20px;
+}
+
+.hero h1 {
+  font-size: 76px;
+}
+
+.hero h2 {
+  font-size: 36px;
+}
+
+.hero h4 {
+  font-size: 25px;
+}
+
+.btn-branding {
+  background-color: #6c63ff;
+  color: white;
+  padding: 15px 15px 15px 15px;
+  margin: 45px 30px 30px 30px;
 }
