@@ -39,15 +39,17 @@ img {
   font-family: var(--secondary-font-family);
 }
 
+.contact-us{
+  display:flex;
+  justify-content: center;
+  
+}
 .btn-branding {
   background-color: rgb(100, 106, 112);
   color: var(--text-color);
   font-family: var(--primary-font-family);
   font-size: 30px;
   line-height: 15px;
-  display: flex;
-  justify-content: center;
-  margin: 50px 450px;
   padding: 20px 30px;
   border-radius: 5px;
   border: var(--border);
@@ -88,3 +90,9 @@ img {
 .operation ul {
   list-style: none;
 }
+
+@media (max-width:960px{
+  .btn-branding{
+    display:block;
+  }
+})
