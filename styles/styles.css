@@ -7,6 +7,7 @@
   --box-shadow: 9px 9px 5px rgba(100, 106, 112, 0.5);
   --border: 1.5px solid white;
 }
+
 body {
   background-color: var(--secondary-color);
 }
@@ -39,12 +40,15 @@ img {
   font-family: var(--secondary-font-family);
 }
 
-.contact-us{
-  display:flex;
+.contact-us,
+.menu-link,
+.event-link {
+  display: flex;
   justify-content: center;
-  
 }
-.btn-branding {
+.btn-branding-contact,
+.btn-branding-menu,
+.btn-branding-event {
   background-color: rgb(100, 106, 112);
   color: var(--text-color);
   font-family: var(--primary-font-family);
@@ -56,7 +60,7 @@ img {
   box-shadow: 5px 5px 5px rgba(100, 106, 112, 0.5);
 }
 
-.btn-branding:hover {
+.btn-branding-contact:hover {
   color: var(--text-color);
 }
 
@@ -74,7 +78,7 @@ img {
   line-height: 30px;
   text-align: center;
   margin: 0 auto;
-  padding: 50px 0 50px 0;
+  padding: 30px 0 30px 0;
 }
 
 .operation {
@@ -91,8 +95,8 @@ img {
   list-style: none;
 }
 
-@media (max-width:960px{
-  .btn-branding{
-    display:block;
+@media (max-width: 900px) {
+  .hero h1 {
+    background-color: red;
   }
-})
+}
