@@ -95,8 +95,15 @@ img {
   list-style: none;
 }
 
-@media (max-width: 900px) {
-  .hero h1 {
-    background-color: red;
+@media (max-width: 576px) {
+  .about-us-description p,
+  .operation p,
+  .hours {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  img {
+    border: 10px dashed red;
   }
 }
