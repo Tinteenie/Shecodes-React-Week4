@@ -101,9 +101,6 @@ img {
   .hours {
     font-size: 16px;
     line-height: 20px;
-  }
-
-  img {
-    border: 10px dashed red;
+    display: inline;
   }
 }
