@@ -46,6 +46,7 @@ img {
 }
 
 .map-icon {
+  display: block;
   color: var(--text-color);
   font-size: 50px;
 }
