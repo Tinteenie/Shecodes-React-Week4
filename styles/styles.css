@@ -119,8 +119,11 @@ img {
     font-size: 25px;
   }
 
-  .about-us-description {
-    padding: 0;
+  .about-us-description ul,
+  .address,
+  .about-us-description p {
+    font-size: 16px;
+    margin: 0;
     text-align: center;
   }
 }
