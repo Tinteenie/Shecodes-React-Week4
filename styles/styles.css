@@ -25,7 +25,8 @@ img {
   color: var(--text-color);
 }
 
-.hero h1 {
+.hero h1,
+.our-journey-title {
   font-size: 76px;
   font-family: var(--primary-font-family);
 }
@@ -57,10 +58,30 @@ img {
   display: flex;
   justify-content: center;
 }
-.btn-branding-contact,
-.btn-branding-menu,
-.btn-branding-event {
-  background-color: rgb(100, 106, 112);
+.btn-branding-branding {
+  background-color: var(--primiary-color);
+  color: var(--text-color);
+  font-family: var(--primary-font-family);
+  font-size: 30px;
+  line-height: 15px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: var(--border);
+  box-shadow: 5px 5px 5px rgba(100, 106, 112, 0.5);
+}
+
+.btn-branding-branding:hover {
+  color: var(--text-color);
+}
+
+.visit-us {
+  font-size: 40px;
+  font-family: var(--primary-font-family);
+  color: var(--text-color);
+}
+
+.btn-branding-contact {
+  background-color: var(--secondary-color);
   color: var(--text-color);
   font-family: var(--primary-font-family);
   font-size: 30px;
@@ -72,12 +93,6 @@ img {
 }
 
 .btn-branding-contact:hover {
-  color: var(--text-color);
-}
-
-.visit-us {
-  font-size: 40px;
-  font-family: var(--primary-font-family);
   color: var(--text-color);
 }
 
@@ -106,24 +121,51 @@ img {
   list-style: none;
 }
 
+.our-journey-title,
+.our-journey-subtitle {
+  color: var(--text-color);
+  font-family: var(--primary-font-family);
+}
+
+.our-journey-subtitle {
+  font-size: 30px;
+}
+
+.our-journey-descriptions p {
+  color: var(--text-color);
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  line-height: 30px;
+}
+
 @media (max-width: 960px) {
   .hero h2 {
     font-size: 35px;
   }
 
-  .hero h1 {
+  .hero h1,
+  .our-journey-title {
     font-size: 50px;
   }
 
-  .hero h4 {
+  .hero h4,
+  .our-journey-subtitle {
     font-size: 25px;
   }
 
-  .about-us-description ul,
   .address,
-  .about-us-description p {
+  .about-us-description ul,
+  .about-us-description p,
+  .our-journey-descriptions p {
     font-size: 16px;
+    line-height: 25px;
     margin: 0;
     text-align: center;
+  }
+
+  .btn-branding-branding,
+  .btn-branding-contact {
+    font-size: 24px;
+    padding: 15px;
   }
 }
