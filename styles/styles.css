@@ -19,6 +19,21 @@ img {
   box-shadow: var(--box-shadow);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+li {
+  color: var(--text-color);
+}
+
+li {
+  list-style-type: none;
+}
+
 .hero {
   background-color: var(--primiary-color);
   padding: 100px 20px 50px 20px;
@@ -26,12 +41,14 @@ img {
 }
 
 .hero h1,
-.our-journey-title {
+.our-journey-title,
+.menu-title {
   font-size: 76px;
   font-family: var(--primary-font-family);
 }
 
-.hero h2 {
+.hero h2,
+.coffee-menu {
   font-size: 36px;
   font-family: var(--secondary-font-family);
 }
@@ -117,10 +134,6 @@ img {
   padding: 20px 0 20px 0;
 }
 
-.operation li {
-  list-style: none;
-}
-
 .our-journey-title,
 .our-journey-subtitle {
   color: var(--text-color);
@@ -136,6 +149,18 @@ img {
   font-family: var(--secondary-font-family);
   font-size: 18px;
   line-height: 30px;
+}
+
+.container-coffee h3,
+.container-coffee h5,
+.container-espresso h3,
+.container-espresso h5 {
+  font-family: var(--primary-font-family);
+}
+
+.container-coffee p,
+.container-espresso p {
+  font-family: var(--secondary-font-family);
 }
 
 @media (max-width: 960px) {
