@@ -151,16 +151,36 @@ li {
   line-height: 30px;
 }
 
+.container-coffee,
+.container-espresso,
+.container-tea {
+  padding: 50px 100px 20px 100px;
+}
+
 .container-coffee h3,
 .container-coffee h5,
 .container-espresso h3,
-.container-espresso h5 {
+.container-espresso h5,
+.container-tea h2,
+.container-tea ul {
   font-family: var(--primary-font-family);
 }
 
 .container-coffee p,
-.container-espresso p {
+.container-espresso p,
+.container-tea p,
+.container-tea li {
   font-family: var(--secondary-font-family);
+}
+
+.container-coffee p,
+.container-tea li {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.container-tea ul {
+  font-size: 30px;
 }
 
 @media (max-width: 960px) {
