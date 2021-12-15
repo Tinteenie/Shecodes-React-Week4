@@ -161,7 +161,6 @@ li {
 .container-coffee h5,
 .container-espresso h3,
 .container-espresso h5,
-.container-tea h2,
 .container-tea ul {
   font-family: var(--primary-font-family);
 }
@@ -169,6 +168,7 @@ li {
 .container-coffee p,
 .container-espresso p,
 .container-tea p,
+.container-tea h2,
 .container-tea li {
   font-family: var(--secondary-font-family);
 }
