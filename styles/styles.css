@@ -42,13 +42,15 @@ li {
 
 .hero h1,
 .our-journey-title,
-.menu-title {
+.menu-title,
+.contact-title h1 {
   font-size: 76px;
   font-family: var(--primary-font-family);
 }
 
 .hero h2,
-.coffee-menu {
+.coffee-menu,
+.contact-title h2 {
   font-size: 36px;
   font-family: var(--secondary-font-family);
 }
@@ -113,7 +115,8 @@ li {
   color: var(--text-color);
 }
 
-.about-us-description p {
+.about-us-description p,
+.social-media-contact {
   color: var(--text-color);
   font-family: var(--secondary-font-family);
   font-size: 20px;
@@ -181,6 +184,19 @@ li {
 
 .container-tea ul {
   font-size: 30px;
+}
+
+.social-media-contact {
+  font-family: var(--primary-font-family);
+}
+
+.social-media-link {
+  color: var(--text-color);
+  font-family: var(--secondary-font-family);
+}
+
+.social-media-link:hover {
+  color: var(--text-color);
 }
 
 @media (max-width: 960px) {
