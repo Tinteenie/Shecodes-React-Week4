@@ -196,7 +196,7 @@ li {
 }
 
 .social-media-link:hover {
-  color: var(--text-color);
+  color: var(--primiary-color);
 }
 
 @media (max-width: 960px) {
