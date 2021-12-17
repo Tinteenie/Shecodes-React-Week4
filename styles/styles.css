@@ -235,7 +235,7 @@ footer .email-link a {
   color: var(--text-color);
   font-family: var(--secondary-font-family);
   text-decoration: none;
-  padding: 70px 150px 100px 150px;
+  padding: 80px 150px 100px 150px;
   transition: all 100ms ease-in-out;
 }
 
