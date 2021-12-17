@@ -200,12 +200,12 @@ li {
 }
 
 .large-logo {
-  max-height: 100px;
+  max-width: 150px;
   margin: 20px 20px 20px 20px;
 }
 
 .navbar {
-  margin: 20px 50px 20px 50px;
+  margin: 10px 50px 10px 50px;
 }
 
 .navbar a {
@@ -213,7 +213,7 @@ li {
   color: var(--text-color);
   text-decoration: none;
   font-family: var(--primary-font-family);
-  font-size: 25px;
+  font-size: 35px;
   transition: all 100ms ease-in-out;
 }
 
