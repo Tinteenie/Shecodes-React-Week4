@@ -226,6 +226,10 @@ li {
   color: var(--primiary-color);
 }
 
+footer .social-media-icons {
+  font-size: 100px;
+}
+
 @media (max-width: 960px) {
   .navbar {
     margin: 35px 30px 25px 0;
