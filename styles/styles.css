@@ -34,6 +34,10 @@ li {
   list-style-type: none;
 }
 
+footer {
+  margin: 100px 100px 100px 100px;
+}
+
 .hero {
   background-color: var(--primiary-color);
   padding: 100px 20px 50px 20px;
@@ -226,8 +230,35 @@ li {
   color: var(--primiary-color);
 }
 
+footer .email-link a {
+  font-size: 30px;
+  color: var(--text-color);
+  font-family: var(--secondary-font-family);
+  text-decoration: none;
+  padding: 70px 150px 100px 150px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .email-link a:hover {
+  color: var(--primiary-color);
+}
+
 footer .social-media-icons {
-  font-size: 100px;
+  font-size: 25px;
+}
+
+footer .social-media-icons a {
+  margin: 10px 20px;
+  padding: 10px 14px;
+  background-color: var(--primiary-color);
+  color: var(--text-color);
+  border-radius: 50px;
+  transition: all 100ms ease-in-out;
+  font-family: var(--secondary-font-family);
+}
+
+footer .social-media-icons a:hover {
+  color: var(--secondary-color);
 }
 
 @media (max-width: 960px) {
